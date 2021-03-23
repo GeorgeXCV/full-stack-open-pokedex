@@ -34,3 +34,4 @@ jobs:
           heroku_email: georgeashton95@gmail.com
           healthcheck: "https://secret-spire-84556.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
